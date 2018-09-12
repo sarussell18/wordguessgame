@@ -1,0 +1,55 @@
+
+body {
+    background-color: white;    
+}
+.jumbotron {
+    background-image: url("../images/ABBA.jpg");
+    background-color: white;    
+    background-position: center;
+    background-size: cover 100%;
+}
+
+p {
+    color: black;
+    font-size: 25px;
+    font-family: 'Righteous', cursive;
+}
+.display-4 {
+    font-weight: bolder;
+    text-shadow: 4px;
+    color: rgb(10, 61, 10);
+    font-family: 'Monoton', cursive;
+    text-shadow: 2px 2px white;
+    
+}
+
+#border {
+    background-color: white;
+    border: 2px solid rgb(10, 61, 10);
+    padding: 15px;
+    
+}
+/* button*/
+#starter {
+    color: black;
+    background-color: white;
+    font-family: 'Righteous', cursive;
+    
+}
+#starter:hover {
+    background-color: azure;
+    color: olive;
+    border: rosybrown;
+}
+#wrong-guesses {
+    color: yellowgreen;
+}
+#loss-counter {
+    color: blueviolet;
+}
+#win-counter {
+    color: hotpink;
+}
+#word-blank {
+    color: black;
+}

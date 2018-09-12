@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hangman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div class="container">
+    <div class="jumbotron jumbotron-fluid text-center">
+           
+            <br>
+            <br>
+        </div>
+    </div>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-12 text-center">
+    <h1 style="font-family: Righteous, cursive;"><span id="Song">Song Titles</span></h1>
+            <div class="col-md-3">
+            
+            </div>
+            <h3 id="word-blank"></h3>
+            <p>Guesses to go:
+                <span id="guesses-left"></span>
+            </p>
+            <p>Wrong guesses:
+                <span id="wrong-guesses"></span>
+            </p>
+            <p>Player Wins:
+                <span id="win-counter"></span>
+            </p>
+            <p>Player Losses:
+                <span id="loss-counter"></span>
+            </p>
+            <p class="lead"><button id="starter" onclick="startGame()">New Word</button></p>
+            
+            <div class="col-md-3">
+            
+    </div>
+</div>
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
